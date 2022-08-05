@@ -419,7 +419,7 @@ button.white{
     font-size: 22px;
 }
 #banner3 h3{
-    color: #ec544e;
+    color: black;
     font-weight: 800;
     font-size: 15px;
 }
@@ -554,3 +554,63 @@ footer .copyright{
 
 
 /* Footer Part end Here */
+
+
+
+
+
+
+/* Shop Page Styling Strat Here */
+
+#page-header{
+    background-image: url(/img/banner/b1.jpg);
+    width: 100%;
+    height: 40vh;
+    background-size: cover;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+#page-header h2,
+#page-header p{
+    padding-bottom: 15px;
+    color: #fff;
+}
+
+#pagination{
+    text-align: center;
+}
+
+#pagination a{
+    text-decoration: none;
+    background-color: #088178;
+    padding: 15px 20px;
+    border-radius: 4px;
+    color: #fff;
+    font-weight: 600;
+}
+ 
+
+/* Shop Page Styling End Here */
+
+
+
+/* Single Products details start */
+
+#prodetails .single-pro-img{
+    width: 40%;
+    margin-right: 50px;
+}
+.small-img-group{
+    display: flex;
+    justify-content: space-between;
+}
+.small-img-col{
+    flex-basis: 24%;
+    cursor: pointer;
+}
+
+/* Single Products details end */
